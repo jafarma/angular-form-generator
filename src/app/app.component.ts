@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { FormGroup } from '@angular/forms';
+import { FormControlService, FormValueService } from './services';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-form-generator';
 }

@@ -1,0 +1,43 @@
+[
+    {
+        "controlType": "dropdown",
+        "key": "group",
+        "label": "My Group",
+        "options": [
+            { "key": "work", "value": "Work" },
+            { "key": "sport", "value": "Sport Group" },
+            { "key": "food", "value": "Good Foods" },
+            { "key": "friends", "value": "Meet friends" }
+        ],
+        "order": 4
+    },
+    {
+        "controlType": "textbox",
+        "key": "firstName",
+        "label": "First name",
+        "value": "Alex",
+        "required": true,
+        "order": 1
+    },
+    {
+        "controlType": "textbox",
+        "key": "emailAddress",
+        "label": "Email",
+        "type": "email",
+        "order": 2
+    },
+    {
+        "controlType": "textbox",
+        "key": "age",
+        "label": "Age",
+        "type": "number",
+        "order": 5
+    },
+    {
+        "controlType": "textbox",
+        "key": "birthdate",
+        "label": "Birth date",
+        "type": "date",
+        "order": 3
+    }
+]
